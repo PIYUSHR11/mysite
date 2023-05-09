@@ -1,7 +1,7 @@
-RUN sudo apt install
 FROM  node:18
 WORKDIR /app
+COPY  package.json /app
 RUN npm install
 COPY . /app
 CMD node server.js
-EXPOSE 8888
+EXPOSE 7667
