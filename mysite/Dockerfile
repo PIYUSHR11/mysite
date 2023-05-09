@@ -1,3 +1,4 @@
+RUN sudo apt install
 FROM  node:18
 WORKDIR /app
 COPY  package.json /app
